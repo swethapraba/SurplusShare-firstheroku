@@ -16,3 +16,9 @@
 # Ignore Byebug command history file.
 .byebug_history
 .env
+
+.DS_Store
+
+.DS_Store
+
+app/.DS_Store
