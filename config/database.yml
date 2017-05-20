@@ -18,7 +18,7 @@ default: &default
   socket: /tmp/mysql.sock
 
 development:
-  adapter: mysql
+  adapter: mysql2
   database: SurplusShare_development
   username: root
   password: surplusshare
@@ -28,7 +28,7 @@ development:
 # re-generated from your development database when you run "rake".
 # Do not set this db to the same as development or production.
 test:
-  adapter: mysql
+  adapter: mysql2
   database: SurplusShare_test
   username: root
   password: surplusshare
